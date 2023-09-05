@@ -1,12 +1,7 @@
-const fs = require("fs");
+const info = require("./info.json");
 
 function justinjeong() {
-  fs.readFile("./info.json", "utf8", function (err, data) {
-    if (err) {
-      return console.log(err);
-    }
-    console.log(data);
-  });
+  console.log(info);
 }
 
 module.exports = justinjeong;
