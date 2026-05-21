@@ -4,7 +4,7 @@
   "description": "Justin Kyungha Jeong's digital business card — a senior frontend engineer who orchestrates AI agents for a living.",
   "main": "index.js",
   "bin": {
-    "justinjeong": "./cli.js"
+    "justinjeong": "cli.js"
   },
   "files": [
     "index.js",
