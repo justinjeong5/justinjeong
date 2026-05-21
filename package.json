@@ -1,15 +1,47 @@
 {
   "name": "justinjeong",
-  "version": "1.1.0",
-  "description": "JustinJeong's name card",
+  "version": "2.0.0",
+  "description": "Justin Kyungha Jeong's digital business card — a senior frontend engineer who orchestrates AI agents for a living.",
   "main": "index.js",
+  "bin": {
+    "justinjeong": "./cli.js"
+  },
+  "files": [
+    "index.js",
+    "cli.js",
+    "info.json"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node cli.js",
+    "test": "node test.js"
   },
   "keywords": [
     "justinjeong",
-    "contact"
+    "business-card",
+    "name-card",
+    "cli",
+    "npx",
+    "contact",
+    "frontend",
+    "ai-agent",
+    "claude-code",
+    "codex"
   ],
-  "author": "justinjeong5",
-  "license": "ISC"
+  "author": "Justin Kyungha Jeong <justin.jeong5@gmail.com> (https://github.com/justinjeong5)",
+  "homepage": "https://github.com/justinjeong5/justinjeong#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/justinjeong5/justinjeong.git"
+  },
+  "bugs": {
+    "url": "https://github.com/justinjeong5/justinjeong/issues"
+  },
+  "license": "ISC",
+  "engines": {
+    "node": ">=14"
+  },
+  "dependencies": {
+    "boxen": "^5.1.2",
+    "chalk": "^4.1.2"
+  }
 }

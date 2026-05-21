@@ -1,9 +1,41 @@
 {
   "name": "Justin Kyungha Jeong",
+  "korean": "정경하",
+  "tagline": "AI 에이전트를 다루는 시니어 프론트엔드 엔지니어",
+  "role": "Senior Frontend Engineer",
+  "company": "Buzzvil",
+  "team": "Frontier Frontend",
+  "focus": "Multi-agent orchestration · AI-augmented development",
+  "stack": [
+    "Next.js",
+    "React",
+    "TypeScript",
+    "Vue",
+    "Node.js",
+    "Python",
+    "Go"
+  ],
+  "tooling": [
+    "Claude Code",
+    "Codex",
+    "MCP",
+    "Turbo",
+    "Vitest"
+  ],
+  "highlights": [
+    "Built 38+ custom Claude skills for an end-to-end ship pipeline",
+    "Runs cross-agent SSoT between Claude and Codex",
+    "Ships Play-hub V2.1 — 17 stacked PRs and counting",
+    "Designs deterministic quality loops over prose, code, and design"
+  ],
   "email": {
     "personal": "justin.jeong5@gmail.com",
     "work": "justin.jeong@buzzvil.com"
   },
-  "github": "justinjeong5",
-  "career": "Frontend Developer"
+  "links": {
+    "github": "https://github.com/justinjeong5",
+    "web": "https://justinjeong5.github.io",
+    "npm": "https://npmjs.com/~justinjeong5"
+  },
+  "card": "npx justinjeong"
 }
