@@ -3,3 +3,5 @@ node_modules/
 *.log
 .npm
 .env
+.env.local
+npm_recovery_codes.txt
