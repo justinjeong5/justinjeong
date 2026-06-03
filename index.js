@@ -1,9 +1,13 @@
 const chalk = require("chalk");
 const boxen = require("boxen");
+const terminalLink = require("terminal-link");
 const info = require("./info.json");
 
 const label = (text) => chalk.bold.gray(text.padStart(8) + "  ");
-const link = (text) => chalk.cyan.underline(text);
+const hyperlink = (text, url) =>
+  terminalLink(chalk.cyan.underline(text), url, { fallback: false });
+const link = (url) => hyperlink(url, url);
+const mail = (address) => hyperlink(address, `mailto:${address}`);
 
 function buildCard() {
   const name = chalk.bold.white(info.name);
@@ -36,8 +40,9 @@ function buildCard() {
     "",
     `${label("Web")}${link(info.links.web)}`,
     `${label("GitHub")}${link(info.links.github)}`,
-    `${label("Work")}${link(info.email.work)}`,
-    `${label("Mail")}${link(info.email.personal)}`,
+    `${label("npm")}${link(info.links.npm)}`,
+    `${label("Work")}${mail(info.email.work)}`,
+    `${label("Mail")}${mail(info.email.personal)}`,
     "",
     `${label("Card")}${chalk.red("npx")} ${chalk.white(info.card.replace("npx ", ""))}`,
   ].join("\n");
