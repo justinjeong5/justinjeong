@@ -42,7 +42,6 @@ function buildCard() {
     `${label("GitHub")}${link(info.links.github)}`,
     `${label("npm")}${link(info.links.npm)}`,
     `${label("Work")}${mail(info.email.work)}`,
-    `${label("Mail")}${mail(info.email.personal)}`,
     "",
     `${label("Card")}${chalk.red("npx")} ${chalk.white(info.card.replace("npx ", ""))}`,
   ].join("\n");

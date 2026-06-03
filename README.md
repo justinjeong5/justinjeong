@@ -39,7 +39,6 @@ justin.buildCard();    // returns the rendered card as a string
 ## Contact
 
 - Work — justin.jeong@buzzvil.com
-- Personal — justin.jeong5@gmail.com
 - GitHub — [@justinjeong5](https://github.com/justinjeong5)
 
 ## License

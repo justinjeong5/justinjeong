@@ -15,7 +15,6 @@ assert.ok(card.includes(info.company), "card should include the company");
 assert.ok(card.includes(info.team), "card should include the team");
 assert.ok(card.includes(info.focus), "card should include the focus");
 assert.ok(card.includes(info.email.work), "card should include the work email");
-assert.ok(card.includes(info.email.personal), "card should include the personal email");
 assert.ok(card.includes(info.links.github), "card should include the GitHub link");
 assert.ok(card.includes(info.links.web), "card should include the web link");
 assert.ok(card.includes(info.links.npm), "card should include the npm link");

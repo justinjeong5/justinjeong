@@ -12,8 +12,7 @@
     "TypeScript",
     "Vue",
     "Node.js",
-    "Python",
-    "Go"
+    "Python"
   ],
   "tooling": [
     "Claude Code",
@@ -29,7 +28,6 @@
     "Designs deterministic quality loops over prose, code, and design"
   ],
   "email": {
-    "personal": "justin.jeong5@gmail.com",
     "work": "justin.jeong@buzzvil.com"
   },
   "links": {
