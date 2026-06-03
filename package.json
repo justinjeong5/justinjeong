@@ -38,10 +38,11 @@
   },
   "license": "ISC",
   "engines": {
-    "node": ">=14"
+    "node": ">=18"
   },
   "dependencies": {
     "boxen": "^5.1.2",
-    "chalk": "^4.1.2"
+    "chalk": "^4.1.2",
+    "terminal-link": "^2.1.1"
   }
 }
