@@ -1,6 +1,6 @@
 {
   "name": "justinjeong",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "Justin Kyungha Jeong's digital business card — a senior frontend engineer who orchestrates AI agents for a living.",
   "main": "index.js",
   "bin": {
@@ -13,7 +13,8 @@
   ],
   "scripts": {
     "start": "node cli.js",
-    "test": "node test.js"
+    "test": "node test.js",
+    "prepublishOnly": "npm test"
   },
   "keywords": [
     "justinjeong",

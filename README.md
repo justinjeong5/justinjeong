@@ -36,6 +36,10 @@ justin.info;           // raw JSON metadata
 justin.buildCard();    // returns the rendered card as a string
 ```
 
+## Dependencies
+
+`chalk@4`, `boxen@5`, and `terminal-link@2` are intentionally pinned to their last CommonJS major. The next majors (chalk 5, boxen 6, terminal-link 3) are ESM-only (`type: module`) and would break the `require()` calls in `index.js` — don't bump them without converting the entry point to ESM.
+
 ## Contact
 
 - Work — justin.jeong@buzzvil.com
